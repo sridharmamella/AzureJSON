@@ -1,0 +1,12 @@
+{
+  "name": "HDInsightLinkedService",
+  "properties": {
+    "type": "HDInsight",
+    "typeProperties": {
+      "clusterUri": " https://<hdinsightclustername>.azurehdinsight.net/",
+      "userName": "admin",
+      "password": "<password>",
+      "linkedServiceName": "MyHDInsightStoragelinkedService"
+    }
+  }
+}
